@@ -8,10 +8,10 @@ Install this Prettier config together with its peer dependencies:
 
 ```bash
 # npm
-npm install @einride/prettier-config prettier --save-dev
+npm install @tammergard/prettier-config prettier --save-dev
 
 # yarn
-yarn add @einride/prettier-config prettier --dev
+yarn add @tammergard/prettier-config prettier --dev
 ```
 
 ## Usage
