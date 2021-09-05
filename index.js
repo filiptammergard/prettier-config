@@ -1,3 +1,5 @@
+// defaults are commented out
+
 module.exports = {
   // printWidth: 80,
   // tabWidth: 2,
