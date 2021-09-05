@@ -19,8 +19,7 @@
   "keywords": [
     "prettier",
     "config",
-    "prettier",
-    "config"
+    "prettier-config"
   ],
   "author": "Filip Tammergård <filip+npm@tammergard.se> (https://tammergard.se/)",
   "license": "MIT",
