@@ -1,6 +1,6 @@
 # @tammergard/prettier-config
 
-A sharable prettier config with personal preferences.
+A sharable Prettier config with personal preferences.
 
 ## Installation
 

@@ -1,7 +1,7 @@
 {
   "name": "@tammergard/prettier-config",
   "version": "0.0.0-development",
-  "description": "A sharable prettier config with personal preferences",
+  "description": "A sharable Prettier config with personal preferences",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
