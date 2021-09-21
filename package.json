@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "@tammergard/semantic-release-config-npm": "1.0.0",
-    "prettier": "2.3.2"
+    "prettier": "2.4.1"
   },
   "peerDependencies": {
     "prettier": ">=2.3.2"
