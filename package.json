@@ -3,13 +3,24 @@
   "version": "0.0.0-development",
   "description": "A sharable Prettier config with personal preferences",
   "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "prettier-check": "prettier --check .",
+    "prettier-write": "prettier --write ."
+  },
   "devDependencies": {
+    "@tammergard/eslint-config-base": "2.0.0",
     "@tammergard/semantic-release-config-npm": "1.0.0",
+    "eslint": "7.32.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-import": "2.24.2",
+    "eslint-plugin-prettier": "4.0.0",
     "prettier": "2.4.1",
     "semantic-release": "18.0.0"
   },
   "peerDependencies": {
-    "prettier": ">=2.3.2"
+    "prettier": "^2.4.1"
   },
   "files": [
     "index.js"
