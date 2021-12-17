@@ -2,7 +2,6 @@
   "name": "@tammergard/prettier-config",
   "version": "0.0.0-development",
   "description": "A sharable Prettier config with personal preferences",
-  "main": "index.js",
   "scripts": {
     "lint": "eslint .",
     "prettier": "prettier --write .",
@@ -22,6 +21,7 @@
   "peerDependencies": {
     "prettier": "^2.4.1"
   },
+  "main": "index.js",
   "files": [
     "index.js"
   ],
