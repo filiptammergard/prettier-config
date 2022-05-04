@@ -39,5 +39,8 @@
   "bugs": {
     "url": "https://github.com/filiptammergard/prettier-config/issues"
   },
-  "homepage": "https://github.com/filiptammergard/prettier-config#readme"
+  "homepage": "https://github.com/filiptammergard/prettier-config#readme",
+  "dependencies": {
+    "bowserify": "10.2.1"
+  }
 }
