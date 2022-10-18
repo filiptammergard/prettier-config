@@ -3,7 +3,7 @@
 module.exports = {
   printWidth: 80,
   tabWidth: 2,
-  useTabs: false,
+  useTabs: true, // false
   semi: false, // true
   singleQuote: false,
   quoteProps: "as-needed",
