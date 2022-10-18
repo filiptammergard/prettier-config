@@ -1,43 +1,43 @@
 {
-  "name": "@tammergard/prettier-config",
-  "version": "0.0.0-development",
-  "description": "A sharable Prettier config with personal preferences",
-  "scripts": {
-    "format": "prettier --write .",
-    "format-check": "prettier --check .",
-    "lint": "eslint .",
-    "review": "pnpm install && pnpm format-check && pnpm lint"
-  },
-  "devDependencies": {
-    "@tammergard/eslint-config-base": "3.0.0",
-    "@tammergard/semantic-release-config-npm": "1.1.0",
-    "eslint": "8.23.1",
-    "prettier": "2.7.1",
-    "semantic-release": "19.0.5"
-  },
-  "peerDependencies": {
-    "prettier": "^2.6.0"
-  },
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/filiptammergard/prettier-config.git"
-  },
-  "keywords": [
-    "prettier",
-    "config",
-    "prettier-config"
-  ],
-  "author": "Filip Tammergård <filip+npm@tammergard.se> (https://tammergard.se/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/filiptammergard/prettier-config/issues"
-  },
-  "homepage": "https://github.com/filiptammergard/prettier-config#readme"
+	"name": "@tammergard/prettier-config",
+	"version": "0.0.0-development",
+	"description": "A sharable Prettier config with personal preferences",
+	"scripts": {
+		"format": "prettier --write .",
+		"format-check": "prettier --check .",
+		"lint": "eslint .",
+		"review": "pnpm install && pnpm format-check && pnpm lint"
+	},
+	"devDependencies": {
+		"@tammergard/eslint-config-base": "3.0.0",
+		"@tammergard/semantic-release-config-npm": "1.1.0",
+		"eslint": "8.23.1",
+		"prettier": "2.7.1",
+		"semantic-release": "19.0.5"
+	},
+	"peerDependencies": {
+		"prettier": "^2.6.0"
+	},
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/filiptammergard/prettier-config.git"
+	},
+	"keywords": [
+		"prettier",
+		"config",
+		"prettier-config"
+	],
+	"author": "Filip Tammergård <filip+npm@tammergard.se> (https://tammergard.se/)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/filiptammergard/prettier-config/issues"
+	},
+	"homepage": "https://github.com/filiptammergard/prettier-config#readme"
 }
