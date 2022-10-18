@@ -16,11 +16,11 @@ yarn add @tammergard/prettier-config prettier --dev
 
 ## Usage
 
-Add the config to your `.prettierrc.js` file:
+Add the config to your `prettier.config.js` file:
 
 ```js
 module.exports = {
-  ...require("@tammergard/prettier-config"),
+	...require("@tammergard/prettier-config"),
 }
 ```
 
