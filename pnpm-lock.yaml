@@ -1,18 +1,18 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@tammergard/eslint-config-base': 3.1.1
+  '@tammergard/eslint-config-base': 3.2.0
   '@tammergard/semantic-release-config-npm': 1.2.0
-  eslint: 8.34.0
+  eslint: 8.35.0
   prettier: 2.8.4
-  semantic-release: 20.1.0
+  semantic-release: 20.1.1
 
 devDependencies:
-  '@tammergard/eslint-config-base': 3.1.1_yrlhudqyxg2l7qvwle5bdpmrli
-  '@tammergard/semantic-release-config-npm': 1.2.0_semantic-release@20.1.0
-  eslint: 8.34.0
+  '@tammergard/eslint-config-base': 3.2.0_rlq4czn2p5niyau36qwtjimf2y
+  '@tammergard/semantic-release-config-npm': 1.2.0_semantic-release@20.1.1
+  eslint: 8.35.0
   prettier: 2.8.4
-  semantic-release: 20.1.0
+  semantic-release: 20.1.1
 
 packages:
 
@@ -44,8 +44,8 @@ packages:
     dev: true
     optional: true
 
-  /@eslint/eslintrc/1.4.1:
-    resolution: {integrity: sha512-XXrH9Uarn0stsyldqDYq8r++mROmWRI1xKMXa640Bb//SY1+ECYX6VzT6Lcx5frD0V30XieqJ0oX9I2Xj5aoMA==}
+  /@eslint/eslintrc/2.0.0:
+    resolution: {integrity: sha512-fluIaaV+GyV24CCu/ggiHdV+j4RNh85yQnAYS/G2mZODZgGmmlrgCydjUcV3YvxCm9x8nMAfThsqTni4KiXT4A==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dependencies:
       ajv: 6.12.6
@@ -59,6 +59,11 @@ packages:
       strip-json-comments: 3.1.1
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /@eslint/js/8.35.0:
+    resolution: {integrity: sha512-JXdzbRiWclLVoD8sNUjR443VVlYqiYmDVT6rGUEIEHU5YJW0gaVZwV2xgM7D4arkvASqD0IlLUVjHiFuxaftRw==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
   /@humanwhocodes/config-array/0.11.8:
@@ -218,7 +223,7 @@ packages:
       '@octokit/openapi-types': 13.11.0
     dev: true
 
-  /@semantic-release/commit-analyzer/9.0.2_semantic-release@20.1.0:
+  /@semantic-release/commit-analyzer/9.0.2_semantic-release@20.1.1:
     resolution: {integrity: sha512-E+dr6L+xIHZkX4zNMe6Rnwg4YQrWNXK+rNsvwOPpdFppvZO1olE2fIgWhv89TkQErygevbjsZFSIxp+u6w2e5g==}
     engines: {node: '>=14.17'}
     peerDependencies:
@@ -231,7 +236,7 @@ packages:
       import-from: 4.0.0
       lodash: 4.17.21
       micromatch: 4.0.5
-      semantic-release: 20.1.0
+      semantic-release: 20.1.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -241,7 +246,7 @@ packages:
     engines: {node: '>=14.17'}
     dev: true
 
-  /@semantic-release/github/8.0.6_semantic-release@20.1.0:
+  /@semantic-release/github/8.0.6_semantic-release@20.1.1:
     resolution: {integrity: sha512-ZxgaxYCeqt9ylm2x3OPqUoUqBw1p60LhxzdX6BqJlIBThupGma98lttsAbK64T6L6AlNa2G5T66BbiG8y0PIHQ==}
     engines: {node: '>=14.17'}
     peerDependencies:
@@ -262,14 +267,14 @@ packages:
       mime: 3.0.0
       p-filter: 2.1.0
       p-retry: 4.6.2
-      semantic-release: 20.1.0
+      semantic-release: 20.1.1
       url-join: 4.0.1
     transitivePeerDependencies:
       - encoding
       - supports-color
     dev: true
 
-  /@semantic-release/npm/9.0.1_semantic-release@20.1.0:
+  /@semantic-release/npm/9.0.1_semantic-release@20.1.1:
     resolution: {integrity: sha512-I5nVZklxBzfMFwemhRNbSrkiN/dsH3c7K9+KSk6jUnq0rdLFUuJt7EBsysq4Ir3moajQgFkfEryEHPqiKJj20g==}
     engines: {node: '>=16 || ^14.17'}
     peerDependencies:
@@ -286,12 +291,12 @@ packages:
       rc: 1.2.8
       read-pkg: 5.2.0
       registry-auth-token: 4.2.2
-      semantic-release: 20.1.0
+      semantic-release: 20.1.1
       semver: 7.3.7
       tempy: 1.0.1
     dev: true
 
-  /@semantic-release/release-notes-generator/10.0.3_semantic-release@20.1.0:
+  /@semantic-release/release-notes-generator/10.0.3_semantic-release@20.1.1:
     resolution: {integrity: sha512-k4x4VhIKneOWoBGHkx0qZogNjCldLPRiAjnIpMnlUh6PtaWXp/T+C9U7/TaNDDtgDa5HMbHl4WlREdxHio6/3w==}
     engines: {node: '>=14.17'}
     peerDependencies:
@@ -307,22 +312,22 @@ packages:
       into-stream: 6.0.0
       lodash: 4.17.21
       read-pkg-up: 7.0.1
-      semantic-release: 20.1.0
+      semantic-release: 20.1.1
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@tammergard/eslint-config-base/3.1.1_yrlhudqyxg2l7qvwle5bdpmrli:
-    resolution: {integrity: sha512-+9N9FYN2WjeSH/brdhDOBX1iya9aQzmKe0Iq4YILxJZqk85QwsHwX6W0/67eTdTTGQxKxUGRoTZnZzhMMm+h1Q==}
+  /@tammergard/eslint-config-base/3.2.0_rlq4czn2p5niyau36qwtjimf2y:
+    resolution: {integrity: sha512-ZuxDRGkHtlVi9QoNEQRLDE5Kf73zfr+mLHbsaOauCVTEixJZFRN89nFMw4SFYJc3pXgihii8cqwzJZ0zJkclmQ==}
     peerDependencies:
       eslint: '>=7.32.0'
       prettier: '>=2.4.1'
     dependencies:
-      eslint: 8.34.0
-      eslint-config-airbnb-base: 15.0.0_gld6yuxpbkjjhtwxuh4os3rtae
-      eslint-config-prettier: 8.6.0_eslint@8.34.0
-      eslint-plugin-import: 2.27.4_eslint@8.34.0
-      eslint-plugin-prettier: 4.2.1_u5wnrdwibbfomslmnramz52buy
+      eslint: 8.35.0
+      eslint-config-airbnb-base: 15.0.0_yckic57kx266ph64dhq6ozvb54
+      eslint-config-prettier: 8.6.0_eslint@8.35.0
+      eslint-plugin-import: 2.27.5_eslint@8.35.0
+      eslint-plugin-prettier: 4.2.1_u2zha4kiojzs42thzpgwygphmy
       prettier: 2.8.4
     transitivePeerDependencies:
       - '@typescript-eslint/parser'
@@ -331,13 +336,13 @@ packages:
       - supports-color
     dev: true
 
-  /@tammergard/semantic-release-config-npm/1.2.0_semantic-release@20.1.0:
+  /@tammergard/semantic-release-config-npm/1.2.0_semantic-release@20.1.1:
     resolution: {integrity: sha512-hOtNMNyV8v9zSJ/a8FUhJGGoG7aIyCjdn4LAynVnsQGXLOYMD+41ghwZGTyCiE3O5YcY1rLGCBK4R8eHUsUZLg==}
     peerDependencies:
       semantic-release: '>=19.0.0'
     dependencies:
       conventional-changelog-conventionalcommits: 5.0.0
-      semantic-release: 20.1.0
+      semantic-release: 20.1.1
     dev: true
 
   /@tootallnate/once/2.0.0:
@@ -945,7 +950,7 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /eslint-config-airbnb-base/15.0.0_gld6yuxpbkjjhtwxuh4os3rtae:
+  /eslint-config-airbnb-base/15.0.0_yckic57kx266ph64dhq6ozvb54:
     resolution: {integrity: sha512-xaX3z4ZZIcFLvh2oUNvcX5oEofXda7giYmuplVxoOg5A7EXJMrUyqRgR+mhDhPK8LZ4PttFOBvCYDbX3sUoUig==}
     engines: {node: ^10.12.0 || >=12.0.0}
     peerDependencies:
@@ -953,20 +958,20 @@ packages:
       eslint-plugin-import: ^2.25.2
     dependencies:
       confusing-browser-globals: 1.0.11
-      eslint: 8.34.0
-      eslint-plugin-import: 2.27.4_eslint@8.34.0
+      eslint: 8.35.0
+      eslint-plugin-import: 2.27.5_eslint@8.35.0
       object.assign: 4.1.4
       object.entries: 1.1.5
       semver: 6.3.0
     dev: true
 
-  /eslint-config-prettier/8.6.0_eslint@8.34.0:
+  /eslint-config-prettier/8.6.0_eslint@8.35.0:
     resolution: {integrity: sha512-bAF0eLpLVqP5oEVUFKpMA+NnRFICwn9X8B5jrR9FcqnYBuPbqWEjTEspPWMj5ye6czoSLDweCzSo3Ko7gGrZaA==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
     dependencies:
-      eslint: 8.34.0
+      eslint: 8.35.0
     dev: true
 
   /eslint-import-resolver-node/0.3.7:
@@ -979,7 +984,7 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-module-utils/2.7.4_eyqnu5kib2hfrvsonwfdq4ojse:
+  /eslint-module-utils/2.7.4_noxuapdo33xou3o5tg3un5cxoy:
     resolution: {integrity: sha512-j4GT+rqzCoRKHwURX7pddtIPGySnX9Si/cgMI5ztrcqOPtk5dDEeZ34CQVPphnqkJytlc97Vuk05Um2mJ3gEQA==}
     engines: {node: '>=4'}
     peerDependencies:
@@ -1001,14 +1006,14 @@ packages:
         optional: true
     dependencies:
       debug: 3.2.7
-      eslint: 8.34.0
+      eslint: 8.35.0
       eslint-import-resolver-node: 0.3.7
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /eslint-plugin-import/2.27.4_eslint@8.34.0:
-    resolution: {integrity: sha512-Z1jVt1EGKia1X9CnBCkpAOhWy8FgQ7OmJ/IblEkT82yrFU/xJaxwujaTzLWqigewwynRQ9mmHfX9MtAfhxm0sA==}
+  /eslint-plugin-import/2.27.5_eslint@8.35.0:
+    resolution: {integrity: sha512-LmEt3GVofgiGuiE+ORpnvP+kAm3h6MLZJ4Q5HCyHADofsb4VzXFsRiWj3c0OFiV+3DWFh0qg3v9gcPlfc3zRow==}
     engines: {node: '>=4'}
     peerDependencies:
       '@typescript-eslint/parser': '*'
@@ -1022,9 +1027,9 @@ packages:
       array.prototype.flatmap: 1.3.1
       debug: 3.2.7
       doctrine: 2.1.0
-      eslint: 8.34.0
+      eslint: 8.35.0
       eslint-import-resolver-node: 0.3.7
-      eslint-module-utils: 2.7.4_eyqnu5kib2hfrvsonwfdq4ojse
+      eslint-module-utils: 2.7.4_noxuapdo33xou3o5tg3un5cxoy
       has: 1.0.3
       is-core-module: 2.11.0
       is-glob: 4.0.3
@@ -1039,7 +1044,7 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-prettier/4.2.1_u5wnrdwibbfomslmnramz52buy:
+  /eslint-plugin-prettier/4.2.1_u2zha4kiojzs42thzpgwygphmy:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -1050,8 +1055,8 @@ packages:
       eslint-config-prettier:
         optional: true
     dependencies:
-      eslint: 8.34.0
-      eslint-config-prettier: 8.6.0_eslint@8.34.0
+      eslint: 8.35.0
+      eslint-config-prettier: 8.6.0_eslint@8.35.0
       prettier: 2.8.4
       prettier-linter-helpers: 1.0.0
     dev: true
@@ -1064,13 +1069,13 @@ packages:
       estraverse: 5.3.0
     dev: true
 
-  /eslint-utils/3.0.0_eslint@8.34.0:
+  /eslint-utils/3.0.0_eslint@8.35.0:
     resolution: {integrity: sha512-uuQC43IGctw68pJA1RgbQS8/NP7rch6Cwd4j3ZBtgo4/8Flj4eGE7ZYSZRN3iq5pVUv6GPdW5Z1RFleo84uLDA==}
     engines: {node: ^10.0.0 || ^12.0.0 || >= 14.0.0}
     peerDependencies:
       eslint: '>=5'
     dependencies:
-      eslint: 8.34.0
+      eslint: 8.35.0
       eslint-visitor-keys: 2.1.0
     dev: true
 
@@ -1084,12 +1089,13 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /eslint/8.34.0:
-    resolution: {integrity: sha512-1Z8iFsucw+7kSqXNZVslXS8Ioa4u2KM7GPwuKtkTFAqZ/cHMcEaR+1+Br0wLlot49cNxIiZk5wp8EAbPcYZxTg==}
+  /eslint/8.35.0:
+    resolution: {integrity: sha512-BxAf1fVL7w+JLRQhWl2pzGeSiGqbWumV4WNvc9Rhp6tiCtm4oHnyPBSEtMGZwrQgudFQ+otqzWoPB7x+hxoWsw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     hasBin: true
     dependencies:
-      '@eslint/eslintrc': 1.4.1
+      '@eslint/eslintrc': 2.0.0
+      '@eslint/js': 8.35.0
       '@humanwhocodes/config-array': 0.11.8
       '@humanwhocodes/module-importer': 1.0.1
       '@nodelib/fs.walk': 1.2.8
@@ -1100,10 +1106,10 @@ packages:
       doctrine: 3.0.0
       escape-string-regexp: 4.0.0
       eslint-scope: 7.1.1
-      eslint-utils: 3.0.0_eslint@8.34.0
+      eslint-utils: 3.0.0_eslint@8.35.0
       eslint-visitor-keys: 3.3.0
       espree: 9.4.0
-      esquery: 1.4.0
+      esquery: 1.5.0
       esutils: 2.0.3
       fast-deep-equal: 3.1.3
       file-entry-cache: 6.0.1
@@ -1147,8 +1153,8 @@ packages:
     hasBin: true
     dev: true
 
-  /esquery/1.4.0:
-    resolution: {integrity: sha512-cCDispWt5vHHtwMY2YrAQ4ibFkAL8RbH5YGBnZBc90MolvvfkkQcJro/aZiAQUlQ3qgrYS6D6v8Gc5G5CQsc9w==}
+  /esquery/1.5.0:
+    resolution: {integrity: sha512-YQLXUplAwJgCydQ78IMJywZCceoqk1oH01OERdSAJc/7U2AylwjhSCLDEtqwg811idIS/9fIU5GjG73IgjKMVg==}
     engines: {node: '>=0.10'}
     dependencies:
       estraverse: 5.3.0
@@ -1193,6 +1199,21 @@ packages:
       cross-spawn: 7.0.3
       get-stream: 6.0.1
       human-signals: 3.0.1
+      is-stream: 3.0.0
+      merge-stream: 2.0.0
+      npm-run-path: 5.1.0
+      onetime: 6.0.0
+      signal-exit: 3.0.7
+      strip-final-newline: 3.0.0
+    dev: true
+
+  /execa/7.0.0:
+    resolution: {integrity: sha512-tQbH0pH/8LHTnwTrsKWideqi6rFB/QNUawEwrn+WHyz7PX1Tuz2u7wfTvbaNBdP5JD5LVWxNo8/A8CHNZ3bV6g==}
+    engines: {node: ^14.18.0 || ^16.14.0 || >=18.0.0}
+    dependencies:
+      cross-spawn: 7.0.3
+      get-stream: 6.0.1
+      human-signals: 4.3.0
       is-stream: 3.0.0
       merge-stream: 2.0.0
       npm-run-path: 5.1.0
@@ -1573,6 +1594,11 @@ packages:
   /human-signals/3.0.1:
     resolution: {integrity: sha512-rQLskxnM/5OCldHo+wNXbpVgDn5A17CUoKX+7Sokwaknlq7CdSnphy0W39GU8dw59XiCXmFXDg4fRuckQRKewQ==}
     engines: {node: '>=12.20.0'}
+    dev: true
+
+  /human-signals/4.3.0:
+    resolution: {integrity: sha512-zyzVyMjpGBX2+6cDVZeFPCdtOtdsxOeseRhB9tkQ6xXmGUNrcnBzdEKPy3VPNYz+4gy1oukVOXcrJCunSyc6QQ==}
+    engines: {node: '>=14.18.0'}
     dev: true
 
   /ignore/5.2.0:
@@ -2727,21 +2753,21 @@ packages:
       is-regex: 1.1.4
     dev: true
 
-  /semantic-release/20.1.0:
-    resolution: {integrity: sha512-+9+n6RIr0Fz0F53cXrjpawxWlUg3O7/qr1jF9lrE+/v6WqwBrSWnavVHTPaf2WLerET2EngoqI0M4pahkKl6XQ==}
+  /semantic-release/20.1.1:
+    resolution: {integrity: sha512-jXDr8y7ozo42N4+G9m/P5Qyx5oQO4aOS66a+Up8XECzEOFIpEoo3ngnr4R5lSix/sVJW69/fgNkOUZhsGFiQ5g==}
     engines: {node: '>=18'}
     hasBin: true
     dependencies:
-      '@semantic-release/commit-analyzer': 9.0.2_semantic-release@20.1.0
+      '@semantic-release/commit-analyzer': 9.0.2_semantic-release@20.1.1
       '@semantic-release/error': 3.0.0
-      '@semantic-release/github': 8.0.6_semantic-release@20.1.0
-      '@semantic-release/npm': 9.0.1_semantic-release@20.1.0
-      '@semantic-release/release-notes-generator': 10.0.3_semantic-release@20.1.0
+      '@semantic-release/github': 8.0.6_semantic-release@20.1.1
+      '@semantic-release/npm': 9.0.1_semantic-release@20.1.1
+      '@semantic-release/release-notes-generator': 10.0.3_semantic-release@20.1.1
       aggregate-error: 4.0.1
       cosmiconfig: 8.0.0
       debug: 4.3.4
       env-ci: 8.0.0
-      execa: 6.1.0
+      execa: 7.0.0
       figures: 5.0.0
       find-versions: 5.1.0
       get-stream: 6.0.1
