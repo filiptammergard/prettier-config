@@ -18,26 +18,25 @@
 	"peerDependencies": {
 		"prettier": "^2.6.0"
 	},
-	"main": "index.js",
 	"files": [
 		"index.js"
 	],
-	"publishConfig": {
-		"access": "public"
+	"main": "index.js",
+	"homepage": "https://github.com/filiptammergard/prettier-config#readme",
+	"bugs": {
+		"url": "https://github.com/filiptammergard/prettier-config/issues"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Filip Tammergård",
+		"email": "filip+npm@tammergard.se",
+		"url": "https://tammergard.se"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/filiptammergard/prettier-config.git"
 	},
-	"keywords": [
-		"prettier",
-		"config",
-		"prettier-config"
-	],
-	"author": "Filip Tammergård <filip+npm@tammergard.se> (https://tammergard.se/)",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/filiptammergard/prettier-config/issues"
-	},
-	"homepage": "https://github.com/filiptammergard/prettier-config#readme"
+	"publishConfig": {
+		"access": "public"
+	}
 }
