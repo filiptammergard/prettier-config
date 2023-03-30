@@ -1,6 +1,6 @@
 {
 	"name": "@tammergard/prettier-config",
-	"version": "0.0.0-development",
+	"version": "2.0.0",
 	"description": "A sharable Prettier config with personal preferences",
 	"scripts": {
 		"format": "prettier --write .",
@@ -9,11 +9,10 @@
 		"review": "pnpm install && pnpm format-check && pnpm lint"
 	},
 	"devDependencies": {
+		"@changesets/cli": "2.26.1",
 		"@tammergard/eslint-config-base": "3.2.0",
-		"@tammergard/semantic-release-config-npm": "1.2.0",
 		"eslint": "8.35.0",
-		"prettier": "2.8.4",
-		"semantic-release": "20.1.1"
+		"prettier": "2.8.4"
 	},
 	"peerDependencies": {
 		"prettier": "^2.6.0"
