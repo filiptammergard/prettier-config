@@ -12,6 +12,9 @@ npm install @tammergard/prettier-config prettier --save-dev
 
 # yarn
 yarn add @tammergard/prettier-config prettier --dev
+
+# pnpm
+pnpm add @tammergard/prettier-config prettier --save-dev
 ```
 
 ## Usage
