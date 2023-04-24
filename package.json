@@ -34,6 +34,7 @@
 		"url": "git+https://github.com/filiptammergard/prettier-config.git"
 	},
 	"publishConfig": {
-		"access": "public"
+		"access": "public",
+		"provenance": true
 	}
 }
