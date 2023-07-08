@@ -1,6 +1,6 @@
 {
 	"name": "@tammergard/prettier-config",
-	"version": "2.0.1",
+	"version": "2.0.2",
 	"description": "A sharable Prettier config with personal preferences",
 	"scripts": {
 		"format": "prettier --write .",
