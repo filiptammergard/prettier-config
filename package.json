@@ -10,7 +10,7 @@
 	},
 	"devDependencies": {
 		"@changesets/cli": "2.26.2",
-		"prettier": "3.0.0"
+		"prettier": "3.0.1"
 	},
 	"peerDependencies": {
 		"prettier": ">=2.6.0"
