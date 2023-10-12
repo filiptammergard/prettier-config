@@ -2,6 +2,7 @@
 	"name": "@tammergard/prettier-config",
 	"version": "2.0.2",
 	"description": "A sharable Prettier config with personal preferences",
+	"type": "module",
 	"scripts": {
 		"format": "prettier --write .",
 		"format-check": "prettier --check .",
@@ -18,7 +19,9 @@
 	"files": [
 		"index.js"
 	],
-	"main": "index.js",
+	"exports": {
+		".": "./index.js"
+	},
 	"homepage": "https://github.com/filiptammergard/prettier-config#readme",
 	"bugs": {
 		"url": "https://github.com/filiptammergard/prettier-config/issues"
