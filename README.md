@@ -19,11 +19,13 @@ pnpm add @tammergard/prettier-config prettier --save-dev
 
 ## Usage
 
-Add the config to your `prettier.config.js` file:
+Add the config to your Prettier config file:
 
 ```js
-module.exports = {
-	...require("@tammergard/prettier-config"),
+import tammergardPrettierConfig from "@tammergard/prettier-config"
+
+export default {
+	...tammergardPrettierConfig,
 }
 ```
 
