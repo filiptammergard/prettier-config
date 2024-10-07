@@ -10,7 +10,7 @@
 		"review": "pnpm install && pnpm format-check"
 	},
 	"devDependencies": {
-		"@changesets/cli": "2.27.8",
+		"@changesets/cli": "2.27.9",
 		"prettier": "3.3.3"
 	},
 	"peerDependencies": {
