@@ -1,5 +1,11 @@
 # @tammergard/prettier-config
 
+## 3.0.0
+
+### Major Changes
+
+- 42f5b46: Require Prettier 3+. The config has been ESM-only since 2.1.0, which does not work with Prettier 2.
+
 ## 2.1.0
 
 ### Minor Changes
