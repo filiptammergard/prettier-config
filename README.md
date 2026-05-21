@@ -1,20 +1,19 @@
 # @tammergard/prettier-config
 
-A sharable Prettier config with personal preferences.
+A sharable Prettier config with personal preferences. Requires Prettier 3 or
+later.
 
 ## Installation
 
-Install this Prettier config together with its peer dependencies:
-
 ```bash
 # npm
-npm install @tammergard/prettier-config prettier --save-dev
-
-# yarn
-yarn add @tammergard/prettier-config prettier --dev
+npm install --save-dev @tammergard/prettier-config prettier
 
 # pnpm
-pnpm add @tammergard/prettier-config prettier --save-dev
+pnpm add -D @tammergard/prettier-config prettier
+
+# bun
+bun add -d @tammergard/prettier-config prettier
 ```
 
 ## Usage
