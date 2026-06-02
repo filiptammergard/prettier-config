@@ -1,5 +1,11 @@
 # @tammergard/prettier-config
 
+## 3.0.2
+
+### Patch Changes
+
+- ef0e005: Use `devEngines` instead of `engines` for the Node version requirement, so it applies to development only and no longer constrains consumers of the package.
+
 ## 3.0.1
 
 ### Patch Changes
