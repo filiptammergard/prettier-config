@@ -38,8 +38,8 @@
 		"review": "pnpm install --frozen-lockfile && pnpm format-check"
 	},
 	"devDependencies": {
-		"@changesets/cli": "^3.0.0",
-		"prettier": "^3.9.6"
+		"@changesets/cli": "^3.0.3",
+		"prettier": "^3.10.1"
 	},
 	"peerDependencies": {
 		"prettier": ">=3.0.0"
